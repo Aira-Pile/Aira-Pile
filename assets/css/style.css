@@ -56,7 +56,7 @@ section{padding: 0;}
 .padding-top {padding-top: 7.5rem;}
 ::selection {background-color: #48bb78; color: #ffffff;}
 .btn-cyan {background-color: #48bb78; font-weight: 300 !important; border-radius: 3px !important;}
-a.btn-cyan {color:#2b3033;}
+a.btn-cyan {color:#ffffff;}
 
 /* transition none */
 .no-transition *{transition-timing-function:initial; -moz-transition-timing-function:initial; -webkit-transition-timing-function:initial; -o-transition-timing-function:initial; -ms-transition-timing-function:initial; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; -ms-transition-duration: 0s;}
@@ -1624,6 +1624,11 @@ header a.logo img {
     animation-duration: 1.2s;
     animation-timing-function: cubic-bezier(1.0, 0.4, 0.4, 1.0);
     animation-iteration-count: infinite;
+}
+
+.cus_social_icon .fa-brands {
+    font-size: 30px;
+    padding: 0 5px;
 }
 
 /* ===================================
